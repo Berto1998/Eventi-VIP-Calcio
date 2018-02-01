@@ -62,6 +62,7 @@ input[type="submit"],input[type="reset"],a,.agileinfo_about_grid1_pos,.agileinfo
 .agileits_w3layouts_banner_nav{
 	padding:1em;
 	background:#000000;
+    float: center
 }
 .navbar-default {
     background: none;
@@ -172,16 +173,16 @@ ul.agile_forms {
 /*-- //banner --*/
 /*-- banner-top --*/
 .w3layouts-banner-top{
-    background: url(../images/222.jpg) no-repeat 0px 0px;
+    background: url(../images/eventi.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
 	-o-background-size: cover;		
 	-moz-background-size: cover;
-	min-height:700px;
+	min-height:600px;
 }
 .w3layouts-banner-top1{
-	background: url(../images/333.jpg) no-repeat 0px 0px;
+	background: url(../images/carnevale.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -190,7 +191,7 @@ ul.agile_forms {
 	min-height:700px;
 }
 .w3layouts-banner-top2{
-	background: url(../images/555.jpg) no-repeat 0px 0px;
+	background: url("../images/foto1.jpg") no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -907,7 +908,7 @@ img.img-r {
 .agileits_agile_about_mail input[type="email"],.agileits_agile_about_mail input[type="text"]:nth-child(1){
 	margin-bottom:1em;
 }
-.w3agile_map{
+.__map{
 	position:relative;
 	text-align: center;
 }
@@ -2027,9 +2028,8 @@ div#bs-example-navbar-collapse-1 {
 	.w3-agileits-about h3, h3.tittle-agileits-w3layouts, .agileits_agile_contact_form h3, .w3-team-head h3, .services-heading h3 {
     font-size: 1.8em;
 	}
-	.w3layouts_stats_left {
-    width: 50%;
-    float: left;
+	.posizionamento {
+    float:center;
 	}
 	.w3layouts_stats_left {
     padding: 2em 0 2em 0;
